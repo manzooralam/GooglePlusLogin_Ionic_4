@@ -1,0 +1,62 @@
+// http://ionicframework.com/docs/theming/
+@import "~@ionic/angular/css/core.css";
+@import "~@ionic/angular/css/normalize.css";
+@import "~@ionic/angular/css/structure.css";
+@import "~@ionic/angular/css/typography.css";
+@import "~@ionic/angular/css/display.css";
+@import "~@ionic/angular/css/padding.css";
+@import "~@ionic/angular/css/float-elements.css";
+@import "~@ionic/angular/css/text-alignment.css";
+@import "~@ionic/angular/css/text-transformation.css";
+@import "~@ionic/angular/css/flex-utils.css";
+
+ion-toolbar {
+  background-color: #ffb643;
+}
+
+// .my-child_popover .popover-content {
+//   width: 90% !important;
+//   height: 90% !important;
+// }
+.ios .my-child_popover .popover-content {
+  width: 90%;
+  left: calc(5% + var(--ion-safe-area-left, 0px)) !important;
+  top: 5vh !important;
+  // border-right: -50px !important;
+}
+.ios .observation_popover .popover-content {
+  width: 90%;
+  left: calc(5% + var(--ion-safe-area-left, 0px)) !important;
+  top: 5vh !important;
+  // border-right: -50px !important;
+}
+
+.my-child_popover .popover-content {
+  width: 90%;
+  top: 5vh !important;
+
+  // height: 90%;
+}
+@media only screen and (min-width: 600px) {
+  .download-popover .popover-content {
+    width: 35vw !important;
+    height: 44vh !important;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .download-popover .popover-content {
+    width: 90% !important;
+    height: 40% !important;
+  }
+}
+
+div.item-native {
+  display: none;
+}
+.centeredButton {
+  // bottom: 10vh;
+  // width: 80%;
+  position: fixed;
+  left: 50%;
+  transform: translate(-50%);
+}

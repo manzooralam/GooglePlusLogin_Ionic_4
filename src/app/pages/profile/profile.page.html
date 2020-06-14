@@ -1,0 +1,17 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Profile</ion-title>
+    <ion-button (click)="signOut()" slot="end" icon-only fill="clear">
+      <ion-icon name="log-out"></ion-icon>
+    </ion-button>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-card>
+    Name : {{userDetails['Name']}}
+  </ion-card>
+  <ion-card>
+    Email : {{userDetails['EmailID']}}
+  </ion-card>
+</ion-content>
