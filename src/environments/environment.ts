@@ -4,10 +4,10 @@
 
 export const environment = {
   production: false,  
-  googleWebClientId : 'AIzaSyCP3NN-2iIQAHYSitvgg_73xdFyowK2Ad0.apps.googleusercontent.com',
+  googleWebClientId : 'AIzaSyCP3NN-2iIQAK2Ad0.apps.googleusercontent.com',
   firebase: {
-    apiKey: "AIzaSyCP3NN-2iIQAHYSitvgg_73xdFyowK2Ad0",
-    authDomain: "ionicdemo-78065.firebaseapp.com",
+    apiKey: "AIzaSFyowK2Ad0",
+    authDomain: "ionicd.firebaseapp.com",
     databaseURL: "https://ionicdemo-78065.firebaseio.com",
     projectId: "ionicdemo-78065",
     storageBucket: "ionicdemo-78065.appspot.com",
