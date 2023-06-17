@@ -30,7 +30,7 @@
     "@ionic/storage": "^2.2.0",
     "angular5-csv": "^0.2.11",
     "cordova-android": "8.0.0",
-    "cordova-browser": "5.0.4",
+    "cordova-browser": "6.0.0",
     "cordova-plugin-device": "^2.0.2",
     "cordova-plugin-geolocation": "^4.0.1",
     "cordova-plugin-googleplus": "^7.0.2",
@@ -49,7 +49,7 @@
   },
   "devDependencies": {
     "@angular-devkit/architect": "^0.13.9",
-    "@angular-devkit/build-angular": "^0.13.9",
+    "@angular-devkit/build-angular": "^15.2.5",
     "@angular-devkit/core": "^7.3.9",
     "@angular-devkit/schematics": "^7.3.9",
     "@angular/cli": "^7.3.9",
